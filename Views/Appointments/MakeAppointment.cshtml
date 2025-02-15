@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Make an Appointment";
+}
+
+<h2>Enter Your Appointment Details</h2>
+
+<form method="post" action="@Url.Action("AddAppointment", "Appointments")">
+    <label for="Name">Name</label>
+    <input type="text" name="Name" required />
+
+    <label for="Date">Date</label>
+    <input type="date" name="Date" required />
+
+    <label for="Time">Time</label>
+    <input type="time" name="Time" required />
+
+    <label for="Email">Email</label>
+    <input type="email" name="Email" required />
+
+    <button type="submit">Submit Appointment</button>
+</form>

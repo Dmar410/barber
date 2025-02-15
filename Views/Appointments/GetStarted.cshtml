@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Get Started";
+}
+
+<h2>Press 'Get Started' to make your appointment</h2>
+
+<form method="get" action="@Url.Action("MakeAppointment", "Appointments")">
+    <button type="submit">Get Started</button>
+</form>

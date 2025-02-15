@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+<Target Name="KillProcess" BeforeTargets="Build">
+    <Exec Command="taskkill /F /IM AppointmentApp.exe /T" IgnoreExitCode="true" />
+  </Target>
+</Project>
+
