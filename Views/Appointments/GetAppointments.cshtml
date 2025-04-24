@@ -1,29 +1,19 @@
-@{
-    ViewData["Title"] = "Appointments List";
-}
+@model List<AppointmentApp.Models.Appointment>
 
-<h2>Your Appointments</h2>
+<h2>Booked Appointments</h2>
 
 <table>
-    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Email</th>
+    </tr>
+    @foreach (var appointment in Model)
+    {
         <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Date</th>
-            <th>Time</th>
-            <th>Email</th>
+            <td>@DateTime.Parse(appointment.Date).ToString("MM/dd/yyyy")</td>
+            <td>@DateTime.Parse(appointment.Time).ToString("hh:mm tt")</td>
+            <td>@appointment.Email</td>
         </tr>
-    </thead>
-    <tbody>
-        @foreach (var appointment in Model)
-        {
-            <tr>
-                <td>@appointment.Id</td>
-                <td>@appointment.Name</td>
-                <td>@appointment.Date</td>
-                <td>@appointment.Time</td>
-                <td>@appointment.Email</td>
-            </tr>
-        }
-    </tbody>
+    }
 </table>

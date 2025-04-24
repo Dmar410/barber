@@ -1,21 +1,45 @@
+@model AppointmentApp.Models.Appointment
+
 @{
-    ViewData["Title"] = "Make an Appointment";
+    ViewData["Title"] = "Book an Appointment";
 }
 
-<h2>Enter Your Appointment Details</h2>
+<h2>Book an Appointment</h2>
 
-<form method="post" action="@Url.Action("AddAppointment", "Appointments")">
-    <label for="Name">Name</label>
-    <input type="text" name="Name" required />
+<form method="post" asp-action="ConfirmAppointment">
+    <label for="Name">Full Name:</label>
+    <input type="text" id="Name" name="Name" class="form-control" required />
 
-    <label for="Date">Date</label>
-    <input type="date" name="Date" required />
+    <label for="Email">Email:</label>
+    <input type="email" id="Email" name="Email" class="form-control" required />
 
-    <label for="Time">Time</label>
-    <input type="time" name="Time" required />
+    <label for="Date">Select Date:</label>
+    <input type="date" id="appointmentDate" name="Date" class="form-control" required min="@DateTime.Now.ToString("yyyy-MM-dd")" onchange="validateDate()" />
+    <p id="dateError" style="color: red; display: none;">Appointments are not available on Sundays and Mondays.</p>
 
-    <label for="Email">Email</label>
-    <input type="email" name="Email" required />
+    <label for="Time">Select Time:</label>
+    <select id="Time" name="Time" class="form-control" required>
+        @foreach (var time in ViewBag.AvailableTimes)
+        {
+            <option value="@time">@time</option>
+        }
+    </select>
 
-    <button type="submit">Submit Appointment</button>
+    <button type="submit" class="btn btn-success mt-3">Confirm Appointment</button>
 </form>
+
+<script>
+    function validateDate() {
+        var dateInput = document.getElementById("appointmentDate");
+        var errorMessage = document.getElementById("dateError");
+        var selectedDate = new Date(dateInput.value);
+        var dayOfWeek = selectedDate.getDay(); // 0 = Sunday, 1 = Monday
+
+        if (dayOfWeek === 0 || dayOfWeek === 1) {
+            errorMessage.style.display = "block"; // Show error message
+            dateInput.value = ""; // Clear the selected date
+        } else {
+            errorMessage.style.display = "none"; // Hide error message
+        }
+    }
+</script>

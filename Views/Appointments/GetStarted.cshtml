@@ -1,9 +1,18 @@
 @{
-    ViewData["Title"] = "Get Started";
+    ViewData["Title"] = "Appointments";
 }
-
-<h2>Press 'Get Started' to make your appointment</h2>
-
-<form method="get" action="@Url.Action("MakeAppointment", "Appointments")">
-    <button type="submit">Get Started</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <h1>Welcome to the Appointment App</h1>
+    <p>This is where you can view, create, and edit appointments.</p>
+    
+    <a href="#">Book an Appointment</a>
+</body>
+</html>

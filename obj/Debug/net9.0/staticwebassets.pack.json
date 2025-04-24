@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\AppointmentApp.27h4eip8le.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\young\\AppointmentApp\\wwwroot\\appointment.html",
+      "PackagePath": "staticwebassets\\appointment.html"
+    },
+    {
       "Id": "C:\\Users\\young\\AppointmentApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\young\\AppointmentApp\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\young\\AppointmentApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\young\\AppointmentApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "C:\\Users\\young\\AppointmentApp\\wwwroot\\js\\site.js",
@@ -255,6 +267,10 @@
     {
       "Id": "C:\\Users\\young\\AppointmentApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\young\\AppointmentApp\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AppointmentApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

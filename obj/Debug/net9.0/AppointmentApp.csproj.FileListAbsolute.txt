@@ -14,12 +14,14 @@ C:\Users\young\AppointmentApp\obj\Debug\net9.0\AppointmentApp.csproj.CoreCompile
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\AppointmentApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\AppointmentApp.RazorAssemblyInfo.cache
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\AppointmentApp.RazorAssemblyInfo.cs
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\AppointmentApp.sourcelink.json
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\scopedcss\bundle\AppointmentApp.styles.css
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\scopedcss\projectbundle\AppointmentApp.bundle.scp.css
-C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\58dgwtaw2z-b9sayid5wm.gz
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\wujf8ms8f0-i2fsdur4xy.gz
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\u0rcrsqhnl-tgl8gu07r3.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\yj4wayn9fl-61n19gt1b8.gz
-C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\r9rlyra3tm-xtxxf3hu2r.gz
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\53fk31xlud-bp57uwb4h3.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\d1a2e9a1rq-bqjiyaj88i.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\x3goxqgu3q-c2jlpeoesf.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\toybu5idbf-erw9l3u2r3.gz
@@ -79,6 +81,7 @@ C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\lzscmf3s3s-2z0ns9nrw6.
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\k00gmq98uw-muycvpuwrr.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\4j7k4r35m4-87fc7y1x7t.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\u0x79rxg5t-mlv21k5csn.gz
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\fac2e27ruw-qvttkcd9jz.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\rjws02dnjz-27h4eip8le.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\bpt9f0sana-27h4eip8le.gz
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\staticwebassets.build.json
@@ -95,3 +98,10 @@ C:\Users\young\AppointmentApp\obj\Debug\net9.0\refint\AppointmentApp.dll
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\AppointmentApp.pdb
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\AppointmentApp.genruntimeconfig.cache
 C:\Users\young\AppointmentApp\obj\Debug\net9.0\ref\AppointmentApp.dll
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\r9rlyra3tm-93xsupv3rd.gz
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\compressed\58dgwtaw2z-redof05hr4.gz
+C:\Users\young\AppointmentApp\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\young\AppointmentApp\bin\Debug\net9.0\MailKit.dll
+C:\Users\young\AppointmentApp\bin\Debug\net9.0\MimeKit.dll
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\AppointmentApp.csproj.AssemblyReference.cache
+C:\Users\young\AppointmentApp\obj\Debug\net9.0\Appointm.BE898AA9.Up2Date

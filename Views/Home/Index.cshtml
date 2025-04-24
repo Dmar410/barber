@@ -1,8 +1,66 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 60%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 36px;
+        color: #333;
+    }
+
+    p {
+        font-size: 18px;
+        color: #666;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: white;
+        background-color: #007BFF;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+    footer {
+        margin-top: 30px;
+        font-size: 14px;
+        color: #777;
+    }
+</style>
+
+<div class="container">
+    <h1>The Barber Shop</h1>
+    <p>If you need a haircut, come make an appointment</p>
+
+    <a class="btn btn-primary" href="/Appointments/MakeAppointment">Book an Appointment</a>
+
+    <footer>
+        &copy; 2025 - AppointmentApp - <a href="@Url.Action("Privacy", "Home")">Privacy</a>
+    </footer>
 </div>
+

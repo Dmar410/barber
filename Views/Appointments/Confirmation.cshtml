@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Appointment Confirmed";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 text-center">
+        <h2 class="text-success">✅ Appointment Confirmed</h2>
+        <p><strong>Name:</strong> @ViewBag.Name</p>
+        <p><strong>Date:</strong> @ViewBag.Date</p>
+        <p><strong>Time:</strong> @ViewBag.Time</p>
+        <a href="/" class="btn btn-primary mt-3">Book Another</a>
+    </div>
+</div>
